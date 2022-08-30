@@ -33,5 +33,5 @@ jobs:
     - name: Run PHPUnit
       run: composer run-script test
       
-    - name: PHPStan Static Analysis
+    - name: PHPStan Static Analysis test
       uses: php-actions/phpstan@v3
