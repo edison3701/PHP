@@ -16,7 +16,6 @@ function mergeSort(array $arr)
     $mid = floor(count($arr) / 2);
     $left = mergeSort(array_slice($arr, 0, $mid));
     $right = mergeSort(array_slice($arr, $mid));
-
     return merge($left,$right);
 }
 
